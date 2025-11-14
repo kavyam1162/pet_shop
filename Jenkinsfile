@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout Code from GitHub') {
             steps {
-                git branch: 'main', url: 'https://github.com/Greatcodertech/pet_shop.git'
+                git branch: 'main', url: 'https://github.com/kavyam1162/pet_shop.git'
             }
         }
 
